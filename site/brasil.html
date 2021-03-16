@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 	<head>
-		<title>Site Notícias</title>
+		<title>Notícias Brasil</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="css/estilo.css">
 	</head>
 
-	<body class="brasil">
-		<!--Topo do site-->
+	<body id="duas-colunas" class="brasil">
+		<!--Inicio do Container-->
 		 <div id="container">
+
 			<div id="topo">
 				<!--Logo-->
 				<h1 class="logo">Notícias Cidade</h1>
@@ -35,9 +36,103 @@
 					<li>
 						<a id="fotos" href="fotos.html">Fotos</a>
 					</li>
-					
-				</ul>
+				</ul><!--Fim menu-->
 			</div>
+
+			<!--Inicio conteudo-->
+			<div id="conteudo">
+
+				<div id="primario">
+
+					<div class="caixa destaque">
+						<h2>Destaque</h2>
+						<div class="caixa-conteudo">
+							<h3 class="destaque">Nova Legislação</h3>
+							<img class="imagem-principal" src="imagens/taxi.jpg" width="100%">
+							<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus nisi, veniam doloribus quaerat minima nam consequuntur architecto dicta repudiandae veritatis hic tenetur sunt placeat deleniti velit est obcaecati unde libero.</p>
+							<a href="">Leia mais...</a>
+						</div>
+					</div>
+
+					<div class="caixa">
+						<h2>Mundo</h2>
+						<div class="caixa-conteudo">
+							<ul id="lista-noticias">
+								<li>
+									<a href="">
+										<img src="imagens/tecnologia.jpg" width="80">
+										<h3>Novas tecnologias</h3>
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="imagens/tecnologia.jpg" width="80">
+										<h3>Novas tecnologias</h3>
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="imagens/tecnologia.jpg" width="80">
+										<h3>Novas tecnologias</h3>
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="imagens/tecnologia.jpg" width="80">
+										<h3>Novas tecnologias</h3>
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!--Inicio Lateral-->
+				<div id="lateral">
+					<div class="caixa">
+						<h2>Entrevistas</h2>
+						<div class="caixa-conteudo">
+							<ul>
+								<!--Apenas para exibição-->
+								<li><a href="">José Almeida</a></li>
+								<li><a href="">Felipe Silva</a></li>
+								<li><a href="">Carla Domingues</a></li>
+								<li><a href="">Veronica Camargo</a></li>
+								<li><a href="">Marco Antonio</a></li>
+								<li><a href="">Daniel dos Santos</a></li>
+								<li><a href="">Guilherme da Silva</a></li>
+								<li><a href="">Fernanda Meireles</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="caixa">
+						<h2>News</h2>
+						<div class="caixa-conteudo">
+							<form>
+								<div>
+									<label for="email">E-mail:</label>
+									<input type="text" name="email" id="email" placeholder="Digite seu E-mail">
+								</div>
+								<div>
+									<input class="submit" type="submit" value="Cadastrar">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div><!--Fim Lateral-->
+
+			</div><!--Fim conteudo-->
+
+		 </div><!--Fim do container-->
+
+		 <div id="container-rodape" style="clear: both;">
+			 <div id="rodape">
+				&copy; Copyright 2000-2018 Notícias Cidade
+			 </div>
 		 </div>
 	</body>
 
